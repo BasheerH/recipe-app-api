@@ -10,6 +10,6 @@ services:
       - "8000:8000"
     volumes:
       - ./app:/app
-    command:
+    command: >
       sh -C "pythin manage.py runserver 0.0.0.0:8000"
 
